@@ -1,5 +1,9 @@
 # esp-idf-lib/tsl4531
 
+[![Build examples](https://github.com/esp-idf-lib/tsl4531/actions/workflows//build.yml/badge.svg)](https://github.com/esp-idf-lib/tsl4531/actions/workflows//build.yml)
+[![Build docs](https://github.com/esp-idf-lib/tsl4531/actions/workflows//build-docs.yml/badge.svg)](https://github.com/esp-idf-lib/tsl4531/actions/workflows//build-docs.yml)
+[![Validation](https://github.com/esp-idf-lib/tsl4531/actions/workflows//validate-component.yml/badge.svg)](https://github.com/esp-idf-lib/tsl4531/actions/workflows//validate-component.yml)
+
 Driver for digital ambient light sensor TSL4531.
 
 * [Documentation](https://esp-idf-lib.github.io/tsl4531/)
@@ -11,7 +15,7 @@ Driver for digital ambient light sensor TSL4531.
 ## Installation
 
 ```sh
-idf.py add-dependency esp-idf-lib/tsl4531^1.0.1
+idf.py add-dependency esp-idf-lib/tsl4531
 ```
 
 ## Support
