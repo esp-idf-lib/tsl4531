@@ -11,7 +11,7 @@ Driver for digital ambient light sensor TSL4531.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/tsl4531^1.0.1
+idf.py add-dependency esp-idf-lib/tsl4531^1.0.1
 ```
 
 ## Support
