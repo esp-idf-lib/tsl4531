@@ -1,5 +1,5 @@
 ---
-version: 1.0.2
+version: 1.0.3
 description: Driver for digital ambient light sensor TSL4531
 license: BSD-3
 targets:
