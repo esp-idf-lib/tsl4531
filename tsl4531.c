@@ -162,7 +162,7 @@ esp_err_t tsl4531_config(tsl4531_t *dev, tsl4531_integration_time_t integration_
     I2C_DEV_TAKE_MUTEX(&dev->i2c_dev);
     I2C_DEV_CHECK(&dev->i2c_dev, enable(dev));
     I2C_DEV_CHECK(&dev->i2c_dev, write_register(dev, TSL4531_REG_CONFIG,
-            (skip_power_save ? 0x08 : 0x00) | (0x03 & integration_time)));
+                                                (skip_power_save ? 0x08 : 0x00) | (0x03 & integration_time)));
     I2C_DEV_CHECK(&dev->i2c_dev, disable(dev));
     I2C_DEV_GIVE_MUTEX(&dev->i2c_dev);
 

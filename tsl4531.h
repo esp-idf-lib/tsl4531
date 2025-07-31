@@ -78,7 +78,8 @@ typedef enum
 /**
  * Device descriptor
  */
-typedef struct {
+typedef struct
+{
     i2c_dev_t i2c_dev;
     tsl4531_integration_time_t integration_time;
     bool skip_power_save;
